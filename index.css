@@ -11,6 +11,10 @@ header {
   margin: 45px 0 70px 60px;
 }
 
+header img {
+  max-width: 200px;
+}
+
 main {
   margin-left: 60px;
   display: flex;
@@ -72,12 +76,6 @@ i:hover {
   transition: 0.3s ease-in-out;
 }
 
-.img-illu {
-}
-
-.img-logo {
-}
-
 .text-container {
   display: flex;
   flex-direction: column;
@@ -93,12 +91,50 @@ i:hover {
     background-image: url(./images/bg-mobile.svg);
   }
 
+  header {
+    margin: 15px 0 60px 25px;
+  }
+
+  header img {
+    max-width: 140px;
+  }
+
   main {
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 20px;
   }
 
   .img-illu {
     max-width: 300px;
+    margin: 0 0 50px 10px;
+  }
+
+  h1 {
+    font-family: "Poppins", "Open Sans";
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .text-container {
+    width: 300px;
+    margin-left: 0px;
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  button {
+    padding: 10px 75px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    margin: 65px 0 0 0;
   }
 }
